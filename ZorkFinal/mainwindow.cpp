@@ -117,8 +117,7 @@ MainWindow::MainWindow(const MainWindow &source){ //Deep Copy Constructor - memb
     elf = source.elf;
     parser = source.parser;
 }
-//To perform porper memory management on the room objects while keeping them pointers i should include the rooms
-// as mamber variables of the class so i can destroy them in the destructor.
+
 void MainWindow::createRooms(){
     // True = Room locked / False = Room open
     //name of item - weapon check - potion check - key check - weight - damage
@@ -180,7 +179,6 @@ void MainWindow::createRooms(){
 
     //Set heros starting position in game
     elf.setCurrentRoom(a);
-    //Need to postion them in such a way that easy mosters at start and harder ones at the end
     //Weapon selection -------- Held in monsters inventorys --------//
     //name of item - weapon check - potion check - key check - weight - damage
     Item weapon1("Maul",true, false, false, 10, 110);
