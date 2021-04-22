@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1232</width>
+    <height>577</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>569</x>
+      <y>480</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>North</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>980</x>
+      <y>490</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Attack</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>1211</width>
+      <height>471</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>1221</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QProgressBar" name="progressBar">
+         <property name="maximumSize">
+          <size>
+           <width>400</width>
+           <height>21</height>
+          </size>
+         </property>
+         <property name="value">
+          <number>24</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="playerImageLabel">
+         <property name="minimumSize">
+          <size>
+           <width>400</width>
+           <height>440</height>
+          </size>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QPlainTextEdit" name="plainTextEdit">
+         <property name="maximumSize">
+          <size>
+           <width>401</width>
+           <height>16777215</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit">
+         <property name="maximumSize">
+          <size>
+           <width>401</width>
+           <height>16777215</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QProgressBar" name="progressBar_2">
+         <property name="maximumSize">
+          <size>
+           <width>400</width>
+           <height>21</height>
+          </size>
+         </property>
+         <property name="value">
+          <number>24</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="roomLabel">
+         <property name="minimumSize">
+          <size>
+           <width>400</width>
+           <height>440</height>
+          </size>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>480</y>
+      <width>82</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_4">
+     <item>
+      <widget class="QPushButton" name="quickTakeButton">
+       <property name="text">
+        <string>Quick Take</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="quickDrop">
+       <property name="text">
+        <string>Quick Drop</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>510</y>
+      <width>261</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="text">
+        <string>West</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="text">
+        <string>South</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="text">
+        <string>East</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>480</y>
+      <width>82</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_5">
+     <item>
+      <widget class="QPushButton" name="InventoryButton">
+       <property name="text">
+        <string>Inventory</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="quickEat">
+       <property name="text">
+        <string>Eat</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <zorder>layoutWidget</zorder>
+   <zorder>layoutWidget</zorder>
+   <zorder>layoutWidget</zorder>
+   <zorder>layoutWidget</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>pushButton_5</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1232</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

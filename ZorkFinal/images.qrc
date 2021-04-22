@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>Images/playerImage.jpeg</file>
+        <file>Images/prison2.jpg</file>
+        <file>Images/treasure.jpg</file>
+        <file>Images/jailer.jpg</file>
+        <file>Images/roomd2.jpg</file>
+        <file>Images/jailescaped2.jpg</file>
+        <file>Images/gravestone.PNG</file>
+        <file>Images/cellar.jpg</file>
+        <file>Images/WARG.jpg</file>
+        <file>Images/livingq.jpg</file>
+        <file>Images/attic.jpg</file>
+        <file>Images/ETTIN.jpg</file>
+        <file>Images/armory.jpg</file>
+        <file>Images/goblin.jpg</file>
+    </qresource>
+</RCC>
